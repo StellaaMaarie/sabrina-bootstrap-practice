@@ -18,8 +18,40 @@ a.nav-item.active:link {
 
 .display-4 {
     color: white;
+    font-family: 'Calligraffitti', sans-serif, cursive;
+    text-align: center;
 }
 
 .display-6 {
     color:white;
+    font-family: 'Calligraffitti', sans-serif, cursive;
+    text-align: center;
+}
+
+.byline {
+    font-family: sans-serif,;
+    font-weight: bold;
+    text-align: left;
+    margin:0;
+    padding:0;
+    font-size:15px;
+}
+
+.where{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-style: italic;
+    text-align: left;
+    margin:0;
+    padding:0;
+    font-size:15px;
+}
+
+.portrait {
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.border-right {
+    border-right-width: 6px;
 }
