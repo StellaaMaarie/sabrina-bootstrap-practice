@@ -6333,7 +6333,7 @@ a.nav-item.active:link {
   text-align: center; }
 
 .byline {
-  font-family: sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: bold;
   text-align: left;
   margin: 0;
@@ -6341,7 +6341,7 @@ a.nav-item.active:link {
   font-size: 15px; }
 
 .where {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: A "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-style: italic;
   text-align: left;
   margin: 0;
@@ -6349,9 +6349,38 @@ a.nav-item.active:link {
   font-size: 15px; }
 
 .portrait {
+  width: 100%;
+  height: auto;
   display: block;
-  margin-left: 0;
-  margin-right: 0; }
+  margin-left: auto;
+  margin-right: auto; }
 
-.border-right {
-  border-right-width: 6px; }
+.card {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.entry {
+  font-family: 'Calligraffitti', sans-serif, cursive;
+  font-weight: bold;
+  font-size: 40px; }
+
+.captianlog {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+.col-sm-9 {
+  margin-bottom: 10px; }
+
+.carousel.slide {
+  width: 100%;
+  height: auto;
+  margin-top: auto;
+  margin-bottom: 20px; }
+
+footer {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: lightgray; }
